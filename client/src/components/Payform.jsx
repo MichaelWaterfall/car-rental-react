@@ -1,7 +1,7 @@
 import { useForm } from 'react-hook-form';
 import { Button, Text, Flex } from '@chakra-ui/react';
 import { useContext } from 'react';
-import { BlockchainContext } from '../context/BlockchainContext';
+import { BlockchainContext } from './context/BlockchainContext';
 
 export default function PayForm() {
   const { payment } = useContext(BlockchainContext);

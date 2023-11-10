@@ -7,7 +7,7 @@ import PayForm from './Payform';
 import AddToBalanceForm from './AddToBalanceForm';
 import AddRenter from './AddRenter';
 import { useContext, useState, useEffect } from 'react';
-import { BlockchainContext } from '../context/BlockchainContext';
+import { BlockchainContext } from './context/BlockchainContext';
 
 function StatsCard(props) {
   const { title, stat, icon, bgColor } = props;

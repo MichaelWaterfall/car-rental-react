@@ -18,7 +18,7 @@ import {
   import { HamburgerIcon, CloseIcon, ChevronDownIcon, ChevronRightIcon } from '@chakra-ui/icons';
   
   import { useContext } from 'react';
-  import { BlockchainContext } from '../context/BlockchainContext';
+  import { BlockchainContext } from './context/BlockchainContext';
   
   export default function Navbar() {
     const { isOpen, onToggle } = useDisclosure();
