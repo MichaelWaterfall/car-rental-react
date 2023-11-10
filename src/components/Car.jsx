@@ -1,6 +1,6 @@
 import { Button, Box, Image, Text, Stack } from '@chakra-ui/react';
 import { useContext } from 'react';
-import { BlockchainContext } from './context/BlockchainContext';
+import { BlockchainContext } from '../context/BlockchainContext';
 import { useForm } from 'react-hook-form';
 
 const Car = ({ car, carText }) => {

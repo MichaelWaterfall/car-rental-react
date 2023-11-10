@@ -4,10 +4,10 @@ import { Box, chakra, Flex, SimpleGrid, Stat, StatLabel, StatNumber, useColorMod
 import { MdAccountBalance } from 'react-icons/md';
 import { FcMoneyTransfer, FcOvertime } from 'react-icons/fc';
 import PayForm from './Payform';
-import AddToBalanceForm from './AddToBalanceForm';
+//import AddToBalanceForm from './AddToBalanceForm';
 import AddRenter from './AddRenter';
 import { useContext, useState, useEffect } from 'react';
-import { BlockchainContext } from './context/BlockchainContext';
+import { BlockchainContext } from '../context/BlockchainContext';
 
 function StatsCard(props) {
   const { title, stat, icon, bgColor } = props;
@@ -64,7 +64,7 @@ export default function CurrentTotals() {
         <StatsCard title={'Car Status: '} bgColor={canRent ? 'green' : 'red'} />
       </SimpleGrid>
       <Flex justifyContent={'center'} alignItems={'center'}>
-        <AddToBalanceForm />
+        {/*<AddToBalanceForm />}*/}
         <PayForm />
       </Flex>
     </Box>

@@ -6,7 +6,7 @@ import lowrider from '../assets/lowrider.jpg';
 import rangerover from '../assets/rangerover.jpg';
 import AddRenter from './AddRenter';
 import { useContext, useState } from 'react';
-import { BlockchainContext } from './context/BlockchainContext';
+import { BlockchainContext } from '../context/BlockchainContext';
 import ClipLoader from 'react-spinners/ClipLoader';
 
 const Dashboard = () => {
