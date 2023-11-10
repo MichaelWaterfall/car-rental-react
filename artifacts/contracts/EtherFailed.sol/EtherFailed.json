@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "EtherFailed",
+  "sourceName": "contracts/EtherFailed.sol",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212201cc2a91b6594578a800e09f64bba6cce108e0ee40c38dce47378cab83642c19464736f6c63430008130033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212201cc2a91b6594578a800e09f64bba6cce108e0ee40c38dce47378cab83642c19464736f6c63430008130033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

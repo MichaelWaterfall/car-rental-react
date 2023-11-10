@@ -1,0 +1,75 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Tarzan\\Desktop\\Projects\\CarRentalReact\\car-rental\\contracts\\CarRental.sol": {
+      "lastModificationDate": 1699639119916,
+      "contentHash": "1f606bf298eb1eebff206a4d56931c5b",
+      "sourceName": "contracts/CarRental.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "CarRental"
+      ]
+    },
+    "C:\\Users\\Tarzan\\Desktop\\Projects\\CarRentalReact\\car-rental\\contracts\\EtherFailed.sol": {
+      "lastModificationDate": 1699639168077,
+      "contentHash": "bf88310fcae58ce82cd462ef4e401540",
+      "sourceName": "contracts/EtherFailed.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "EtherFailed"
+      ]
+    }
+  }
+}
