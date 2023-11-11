@@ -1,5 +1,5 @@
 import CurrentTotals from './CurrentTotals';
-import { Stack, Box, Flex } from '@chakra-ui/react';
+import { Stack, Box, Flex, Center } from '@chakra-ui/react';
 import Car from './Car';
 import bmw from '../assets/bmw.jpg';
 import lowrider from '../assets/lowrider.jpg';

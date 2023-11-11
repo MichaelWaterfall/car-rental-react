@@ -15,7 +15,7 @@ import {
     useDisclosure,
   } from '@chakra-ui/react';
   import { Link } from 'react-router-dom';
-  import { HamburgerIcon, CloseIcon, ChevronDownIcon, ChevronRightIcon } from '@chakra-ui/icons';
+  //import { HamburgerIcon, CloseIcon, ChevronDownIcon, ChevronRightIcon } from '@chakra-ui/icons';
   
   import { useContext } from 'react';
   import { BlockchainContext } from '../context/BlockchainContext';
@@ -38,7 +38,7 @@ import {
         >
           <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
             <Text
-              textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
+              //textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
               fontFamily={'heading'}
               color={useColorModeValue('gray.800', 'white')}
               fontWeight={900}
