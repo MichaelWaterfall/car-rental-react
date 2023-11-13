@@ -1,6 +1,5 @@
 const { ethers } = require('hardhat');
 const { expect } = require('chai');
-//import { time } from "@nomicfoundation/hardhat-network-helpers";
 
 describe('CarRental', function () {
   let deployer, user1, user2, user3, etherFailedUser, user4;
